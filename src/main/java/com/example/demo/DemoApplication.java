@@ -20,6 +20,12 @@ public class DemoApplication {
 	{
 		return "about";
 	}
+
+	@GetMapping("/hello-world")
+	public String helloPage()
+	{
+		return "hello-world";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
