@@ -14,6 +14,12 @@ public class DemoApplication {
 	{
 		return "hello world";
 	}
+
+	@GetMapping("/about")
+	public String aboutPage()
+	{
+		return "about";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}

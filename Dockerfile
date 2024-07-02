@@ -1,6 +1,6 @@
-FROM jenkins/jenkins:2.452.2-jdk17
+FROM jenkins/jenkins:2.452.2-jdk21
 USER root
-RUN apt-get update && apt-get install -y lsb-release git
+RUN apt-get update && apt-get install -y lsb-release git maven
 RUN curl -fsSLo /usr/share/keyrings/docker-archive-keyring.asc \
   https://download.docker.com/linux/debian/gpg
 RUN echo "deb [arch=$(dpkg --print-architecture) \

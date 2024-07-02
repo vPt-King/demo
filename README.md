@@ -11,6 +11,9 @@ sudo docker run --name jenkins --restart=on-failure --detach \
   --volume jenkins-docker-certs:/certs/client:ro \
     jenkins:demo
 
-3. 
+3. New item tren jenkins server
+Add githubs link to item
+Cai github plugin trong jenkins
 
-
+4. Install maven in jenkins server
+Cai maven plugin trong jenkins
