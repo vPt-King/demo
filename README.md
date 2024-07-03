@@ -46,3 +46,8 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 5. - Cai plugin docker pipeline tren master node
+
+6. - Ket noi jenkins voi docker hub
+Tao credential ket noi voi dockerhub username-password giong voi tai khoan dockerhub
+
+7. Viet lai doan pipeline
