@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: spring-app
-          image: thanhvu638/spring-app:11 
+          image: thanhvu638/spring-app:19
           ports: 
           - containerPort: 8080
 
