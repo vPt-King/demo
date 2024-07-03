@@ -8,3 +8,4 @@ https://hookdeck.com/webhooks/platforms/how-to-test-docker-hub-webhooks-on-local
 
 2. Bật máy ảo ubuntu chạy slave node
 3. Bật máy ảo chạy minikube
+4. Đổi lại đường dẫn ngrok trong github
