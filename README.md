@@ -1,7 +1,8 @@
-1. Spring boot java 
-2. Docker run
+1. Tạo 1 project Spring boot java 21
+2. Chạy jenkins trên docker
 
-Cài git trên dockerfile
+sudo docker build -f Dockerfile -t jenkins:demo .
+
 
 sudo docker run --name jenkins --restart=on-failure --detach \
   --network jenkins --env DOCKER_HOST=tcp://docker:2376 \
@@ -11,9 +12,9 @@ sudo docker run --name jenkins --restart=on-failure --detach \
   --volume jenkins-docker-certs:/certs/client:ro \
     jenkins:demo
 
-3. New item tren jenkins server
-Add githubs link to item
-Cai github plugin trong jenkins
+3. Tạo 1 slave node
+trên máy ảo ubuntu:
+Tạo ssh-keygen -t rsa
+Copy id_rsa.pub vào file authorized_key
 
-4. Install maven in jenkins server
-Cai maven plugin trong jenkins
+
