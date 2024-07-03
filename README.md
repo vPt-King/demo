@@ -26,4 +26,4 @@ Kiem tra java --version: jdk-21
 kiem tra javac --version: javac 21.0.2
 
 - Cài maven lên slave node
-sudo apt install maven
+sudo apt install maven hi
