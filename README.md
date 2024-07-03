@@ -18,3 +18,12 @@ Tạo ssh-keygen -t rsa
 Copy id_rsa.pub vào file authorized_key
 
 
+4. - Cài jdk-21 lên slave node
+wget https://download.oracle.com/java/21/archive/jdk-21.0.2_linux-x64_bin.deb
+sudo dpkg -i jdk-21.0.2_linux-x64_bin.deb
+
+Kiem tra java --version: jdk-21
+kiem tra javac --version: javac 21.0.2
+
+- Cài maven lên slave node
+sudo apt install maven
