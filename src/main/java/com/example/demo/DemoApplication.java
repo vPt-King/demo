@@ -26,6 +26,12 @@ public class DemoApplication {
 	{
 		return "hello-world";
 	}
+
+	@GetMapping("/test")
+	public String testPage()
+	{
+		return "this is test page";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
