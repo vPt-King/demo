@@ -32,6 +32,12 @@ public class DemoApplication {
 	{
 		return "this is test page";
 	}
+
+	@GetMapping("/27")
+	public String test27()
+	{
+		return "this is test page 27";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
