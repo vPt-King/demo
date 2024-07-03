@@ -50,4 +50,5 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 6. - Ket noi jenkins voi docker hub
 Tao credential ket noi voi dockerhub username-password giong voi tai khoan dockerhub
 
-7. Viet lai doan pipeline
+
+
