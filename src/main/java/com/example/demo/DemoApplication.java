@@ -21,22 +21,11 @@ public class DemoApplication {
 		return "about";
 	}
 
-	@GetMapping("/hello-world")
-	public String helloPage()
-	{
-		return "hello-world";
-	}
 
-	@GetMapping("/test")
-	public String testPage()
-	{
-		return "this is test page";
-	}
-
-	@GetMapping("/27")
+	@GetMapping("/28")
 	public String test27()
 	{
-		return "this is test page 27";
+		return "this is test page 28";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
