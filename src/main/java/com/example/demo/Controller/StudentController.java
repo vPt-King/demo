@@ -10,4 +10,10 @@ public class StudentController {
     {
         return "student";
     }
+
+    @GetMapping("/java")
+    public String java()
+    {
+        return "java";
+    }
 }
