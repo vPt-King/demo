@@ -10,3 +10,4 @@ https://hookdeck.com/webhooks/platforms/how-to-test-docker-hub-webhooks-on-local
 3. Bật máy ảo chạy minikube
 4. Đổi lại đường dẫn ngrok trong github
 5. Vao jenkin docker, spring pipeline
+6.
